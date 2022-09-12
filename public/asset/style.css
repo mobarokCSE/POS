@@ -1,0 +1,67 @@
+.bgView{
+            background-color: #5f27cd;
+            color: #fff;
+        }
+        .cardP{
+            border-top: 5px solid #1abc9c;
+        }
+        .cardB{
+            border-bottom: 4px solid #1abc9c;
+        }
+        .cardL{
+            border-top: 5px solid #2ecc71;
+        }
+        .cardR{
+            border-top: 5px solid #3498db;
+        }
+        label{
+        font-weight:bold;
+        }
+        .form-group input::-webkit-input-placeholder {
+            color:#ced6e0;
+            font-size:15px;
+        }
+        .form-group select{
+            font-size:15px;
+            color:#ced6e0;
+        }
+        .shadow{
+            box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+        }
+        .hr2{
+            border-bottom: 2px solid #fff;
+        }
+        .widget-stat-icon{
+            line-height: 140px;
+            bottom: 45px;
+            width: 70px;
+            height: 76%;
+        }
+.card {
+    margin-bottom: 1.5rem
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #c8ced3;
+    border-radius: .25rem
+}
+
+.card-header:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f0f3f5;
+    border-bottom: 1px solid #c8ced3
+}
